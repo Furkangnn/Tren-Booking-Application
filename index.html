@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="sessions">
+        <select id="from">
+          <option value="1">Gebze</option>
+          <option value="2">Diliskelesi</option>
+          <option value="3">Kocaeli</option>
+          <option value="4">Sakarya</option>
+        </select>
+        <select id="to">
+            <option value="1">Gebze</option>
+            <option value="2">Diliskelesi</option>
+            <option value="3">Kocaeli</option>
+            <option value="4">Sakarya</option>
+          </select>
+          <button id="confirm">onalyla</button>
+
+      </div>
+      <ul class="showcase">
+        <li>
+          <div class="seat"></div>
+          <small>müsati </small>
+        </li>
+        <li>
+          <div class="seat selected"></div>
+          <small>Seçildi</small>
+        </li>
+        <li>
+          <div class="seat sold"></div>
+          <small>Satıldı</small>
+        </li>
+      </ul>
+      <div class="directions" style="color:rgb(253, 168, 196);">
+      <span style="display: inline-block;margin-right:8px;  ">Yön</span><i class="ri-arrow-right-line direct"></i>
+      </div>
+     
+    </div>
+    
+      <div class="sections">
+        <div class="row"></div>
+        <div class="row"></div>
+        <div class="row"></div>
+        <div class="row"></div>
+        <div class="row"></div>
+          
+      </div>
+    </div>
+    <button id="buy">satın al</button>
+
+  </body>
+  <script src="js.js"></script>
+</html>
